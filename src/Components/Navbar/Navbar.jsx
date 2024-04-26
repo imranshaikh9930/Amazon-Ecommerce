@@ -10,6 +10,7 @@ import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
 import { doc, getDoc } from "firebase/firestore";
 import { setUser } from "../../redux/userSlice";
+import logo from "../../assets/logo.png"
 
 // eslint-disable-next-line react/prop-types
 const Navbar = ({ handleSearch }) => {
@@ -51,13 +52,13 @@ const Navbar = ({ handleSearch }) => {
   };
   return (
     <header className="fixed top-0 left-0 right-0 z-[100]">
-      <nav className="bg-black max-w-screen h-full flex justify-between items-center text-white p-3 ">
+      <nav className="bg-black max-w-screen h-full flex justify-between items-center text-white p-3 gap-3">
         <NavLink className="text-xl" to={"/"}>
-          My Shop
+        <img src={logo} alt="" className="w-[100px] object-contain mx-auto mt-[18px] "/>
         </NavLink>
 
         {/* Search Input */}
-        <div className="flex items-center h-10 bg-white w-1/2 gap-2 rounded-r-lg">
+        <div className="flex flex-1 items-center h-10 bg-white w-1/2 gap-2 rounded-r-lg">
           <input
             type="text"
             placeholder="Search Products...."
