@@ -17,7 +17,7 @@ const Products = () => {
   const [filterData, setFilterData] = useState(prod);
   const [search, setSearch] = useState("");
   
-  let Arr = [bg1,bg2,bg3,bg4];
+
 
 
   const handleSearch = (e) => {
