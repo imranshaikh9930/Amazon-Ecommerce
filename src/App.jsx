@@ -23,6 +23,7 @@ function App() {
         <Route path="/login" element={<Login/>}/>
         <Route path="/forgot" element={<Forgot/>}/>
         <Route path = "/" element={<Products/>}/>
+        
         <Route element={<PrivateRoute/>}>
         <Route path="/orders" element={<Order/>}/>
          <Route path="/cart" element={<Cart/>}/>

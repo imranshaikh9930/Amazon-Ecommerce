@@ -23,7 +23,7 @@ const ProductDetails = () => {
     <Navbar/>
     <div className="flex justify-center items-center w-[100vw] h-[100vh] mx-auto">
 
-    <div className="font-inter h-[calc(100vh-100px)] w-screen flex justify-start items-start p-10">
+    <div className="font-inter h-[calc(100vh-100px)] w-screen md:flex md:justify-center md:items-center mx-auto p-10">
         <div className="flex flex-col items-center gap-6 bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-4xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 md:max-w-[60%]">
             <img
                 className="p-3 object-cover w-1/2 rounded-t-lg h-full md:h-auto md:w-48 md:rounded-none md:rounded-lg"

@@ -8,9 +8,7 @@ import Navbar from "../Navbar/Navbar";
 import { prod } from "../../data/jsonformatter"; // Assuming prod is your array of products
 import Product from "../Product/Product";
 import bg1 from "../../assets/bannerImgOne.jpg";
-import bg2 from "../../assets/bannerImgTwo.jpg";
-import bg3 from "../../assets/bannerImgThree.jpg";
-import bg4 from "../../assets/bannerImgFour.jpg";
+
 
 const Products = () => {
 //   const swiperRef = useRef(null);
@@ -32,7 +30,7 @@ const Products = () => {
 
 
   return (
-    <div className="z-[50] bg-gray-200 h-[100vh]">
+    <div className="bg-gray-200 h-[100vh] pb-3">
       <Navbar handleSearch={handleSearch} />
       
       {/* Mobile */}
@@ -47,6 +45,7 @@ const Products = () => {
           <Product className="" key={item.id} products={item} />
         ))}
       </div>
+      
     </div>
   );
 };
