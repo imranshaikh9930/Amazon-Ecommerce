@@ -116,7 +116,7 @@ const Cart = () => {
         </div>
       </div>
   
-      <div className="md:w-1/4 bg-white rounded p-4 mt-0 md:mt-16 text-center ">
+      <div className="md:w-1/4 bg-white rounded p-4 mt-0 md:mt-20 text-center ">
         <div className="text-xs xl:text-sm text-green-800 mb-2 ">
           Your order qualifies for <span className="font-bold">FREE DELIVERY</span>. Delivery Details
         </div>
