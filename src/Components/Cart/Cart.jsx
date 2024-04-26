@@ -79,7 +79,7 @@ const Cart = () => {
     <Navbar  cart= {cart }/>
     <div className="mx-auto flex flex-col justify-between md:flex-row">
       <div className="md:w-3/4"> {/* Adjust width as needed */}
-        <h1 className="text-4xl text-center font-bold text-gray-900 dark:text-white p-4">
+        <h1 className="text-4xl text-center font-bold text-gray-900 dark:text-white p-4 mt-[4rem] md:mt-[4.6rem]">
           Your Shopping Cart
         </h1>
   
@@ -116,8 +116,8 @@ const Cart = () => {
         </div>
       </div>
   
-      <div className="md:w-1/4 bg-white rounded p-7">
-        <div className="text-xs xl:text-sm text-green-800 mb-2">
+      <div className="md:w-1/4 bg-white rounded p-4 mt-0 md:mt-16 text-center ">
+        <div className="text-xs xl:text-sm text-green-800 mb-2 ">
           Your order qualifies for <span className="font-bold">FREE DELIVERY</span>. Delivery Details
         </div>
         <div className="text-base xl:text-lg mb-4">
