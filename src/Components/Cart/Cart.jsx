@@ -79,7 +79,7 @@ const Cart = () => {
     <Navbar  cart= {cart }/>
     <div className="mx-auto flex flex-col justify-between md:flex-row">
       <div className="md:w-3/4"> {/* Adjust width as needed */}
-        <h1 className="text-4xl text-center font-bold text-gray-900 dark:text-white p-4 mt-[4rem] md:mt-[4.6rem]">
+        <h1 className=" text-3xl md:text-4xl text-center font-bold text-gray-900 dark:text-white p-4 mt-[4rem] md:mt-[4.6rem]">
           Your Shopping Cart
         </h1>
   
